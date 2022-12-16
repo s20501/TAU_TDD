@@ -28,8 +28,3 @@ class Song:
 
     def get_full_song(self):
         return self.song
-
-
-if __name__ == '__main__':
-    new_song = Song("../song.txt")
-    print(new_song.get_verse_range(3, 2))
