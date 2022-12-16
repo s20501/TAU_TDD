@@ -3,7 +3,7 @@ import unittest
 from classes.Roma import roman
 
 
-class RomanNumeralsTest(unittest.TestCase):
+class TestRoman(unittest.TestCase):
     def test_1_is_a_single_i(self):
         self.assertEqual(roman(1), "I")
 

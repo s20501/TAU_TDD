@@ -3,7 +3,7 @@ import unittest
 from classes.Hamming import hamming
 
 
-class HammingTest(unittest.TestCase):
+class TestHamming(unittest.TestCase):
     def test_empty_strands(self):
         self.assertEqual(hamming.distance("", ""), 0)
 
