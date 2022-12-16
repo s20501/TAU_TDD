@@ -5,7 +5,7 @@ from classes.Song import Song
 
 class TestSong(unittest.TestCase):
     def setUp(self):
-        self.song = Song('../song.txt')
+        self.song = Song('song.txt')
 
     def test_get_verse(self):
         verse = self.song.get_verse(1)
